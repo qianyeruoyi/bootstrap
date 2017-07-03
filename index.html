@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/phone.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#navbar-example"  id="nav1"  >
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" id="navbar-example">
+            <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"  id="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav  navbar-right">
+                    <li class="active"><a href="#nav1">首页<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#fuwu">服务</a></li>    
+                    <li><a href="#meishi">美食</a></li>    
+                    <li><a href="#caidan">菜单</a></li>    
+                    <li><a href="#yishu">艺术餐厅</a></li>    
+                    <li><a href="#xinwen">最新新闻</a></li>    
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">预定</a></li>   
+                    <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>  -->
+                  
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <!-- 轮播 -->
+        <div id="ad" class="carousel slide" data-ride="carousel" data-interval="1500">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#">
+                        <img src="images/carousel1.jpg" />
+                    </a>
+                        <div class="carousel-caption">
+                            <h2>"People who love to eat are always the best people"</h2>
+                            <p>Julia Child</p>
+                        </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/carousel2.jpg" />
+                    </a>
+                    <div class="carousel-caption">
+                            <h2>What does it come from?</h2>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                        </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/carousel3.jpg" />
+                    </a>
+                    <div class="carousel-caption">
+                            <h2>Why do we use it?</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#ad" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#ad" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#ad" data-slide-to="0" class="active"></li>
+                <li data-target="#ad" data-slide-to="1"></li>
+                <li data-target="#ad" data-slide-to="2"></li>
+            </ol>
+        </div>
+
+
+        <!-- main1 cook -->
+        <h1 class="text-center" id="cook-h1">厨师长建议</h1>
+            <div class="container cook">
+                <li class="col-md-4"><p>"超赞的美食和服务"</p><img src="images/image1.jpg" alt=""><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></p></li>
+                <li class="col-md-4"><p>"超赞的美食和服务"</p><img src="images/image2.jpg" alt=""><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></p></li>
+                <li class="col-md-4"><p>"超赞的美食和服务"</p><img src="images/image3.jpg" alt=""><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></p></li>
+            </div>
+
+            <!-- main2 serve -->
+            <div class="serve" id="fuwu">
+                <h1 class="text-center">我们提供以下服务</h1>
+                <ul class="container">
+                    <li class="col-md-3"><span class="glyphicon glyphicon-calendar"></span><h3>Open 24/7</h3><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></li>
+                    <li class="col-md-3"><span class="glyphicon glyphicon-music"></span><h3>Free Music</h3><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></li>
+                    <li class="col-md-3"><span class="glyphicon glyphicon-signal"></span><h3>WIFI</h3><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></li>
+                    <li class="col-md-3"><span class="glyphicon glyphicon-thumbs-up"></span><h3>High quality</h3><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></li>
+                </ul>
+            </div>
+
+            <!-- main3 推荐 -->
+            <div class="main3" id="meishi">
+            <h1 class="text-center">强力推荐</h1>
+            <div class="container">
+                <div class="panel panel-default col-md-6 bg2">
+                    <div class="panel-body">
+                        <img src="images/dishes1.jpg" alt="">
+                        <h4>鸡脯沙拉</h4>
+                        <p>西班牙LéKué秉承强调功能(Functionality)、品质(Quality)及创新与前卫设计(innovation and avant-garde design)之理念，行成其独特与创新的...</p>
+                    </div>
+                </div>
+
+                <div class="panel panel-default col-md-6 bg2">
+                    <div class="panel-body">
+                        <img src="images/dishes2.jpg" alt="">
+                        <h4>咖喱鸡肉</h4>
+                        <p>西班牙LéKué秉承强调功能(Functionality)、品质(Quality)及创新与前卫设计(innovation and avant-garde design)之理念，行成其独特与创新的...</p>
+                    </div>
+                </div>
+         </div>
+         <div class="container">
+                <div class="panel panel-default col-md-6 bg2">
+                    <div class="panel-body">
+                        <img src="images/dishes3.jpg" alt="">
+                        <h4>红焖里脊</h4>
+                        <p>西班牙LéKué秉承强调功能(Functionality)、品质(Quality)及创新与前卫设计(innovation and avant-garde design)之理念，行成其独特与创新的...</p>
+                    </div>
+                </div>
+
+                <div class="panel panel-default col-md-6 bg2">
+                    <div class="panel-body">
+                        <img src="images/dishes4.jpg" alt="">
+                        <h4>芝士面包</h4>
+                        <p>西班牙LéKué秉承强调功能(Functionality)、品质(Quality)及创新与前卫设计(innovation and avant-garde design)之理念，行成其独特与创新的...</p>
+                    </div>
+                </div>
+            </div>          
+            </div>
+            
+            <!-- main4 menu -->
+            <div class="menu" id="caidan">
+                <h1 class="text-center">菜单</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center"><img src="images/menu.jpg" alt="" class="img-circle"></div>
+                        <ul class="col-md-6">
+                            <li class="row">
+                                <div class="col-md-8">
+                                    <h4>香肠三明治 Sausage Sandwish</h4>
+                                    <hr>
+                                    <p>香肠 / 三明治 / 生菜 / 黄油</p>
+                                </div>
+                                <div class="col-md-3 text-center"><span class="pirce-circle">¥100</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-md-8">
+                                    <h4>香肠三明治 Sausage Sandwish</h4>
+                                    <hr>
+                                    <p>香肠 / 三明治 / 生菜 / 黄油</p>
+                                </div>
+                                <div class="col-md-3 text-center"><span class="pirce-circle">¥100</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-md-8">
+                                    <h4>香肠三明治 Sausage Sandwish</h4>
+                                    <hr>
+                                    <p>香肠 / 三明治 / 生菜 / 黄油</p>
+                                </div>
+                                <div class="col-md-3 text-center"><span class="pirce-circle">¥100</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-md-8">
+                                    <h4>香肠三明治 Sausage Sandwish</h4>
+                                    <hr>
+                                    <p>香肠 / 三明治 / 生菜 / 黄油</p>
+                                </div>
+                                <div class="col-md-3 text-center"><span class="pirce-circle">¥100</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main5 art -->
+            <div class="art" id="container-gallery" >
+                <h1 class="text-center" id="yishu">艺术餐厅</h1>
+                <div class="container">
+                    <div class="col-md-5 col-md-offset-4 ">
+                        <ul class="nav nav-tabs" id="gallery-tabs">
+                            <li><a href="#tab1" data-toggle="tab" class="mover btn btn-default">美食</a></li>
+                            <li><a href="#tab2" data-toggle="tab" class="mover btn btn-default">餐厅</a></li>
+                            <li><a href="#tab3" data-toggle="tab" class="mover btn btn-default">花园</a></li>
+                            <li><a href="#tab4" data-toggle="tab" class="mover btn btn-default">乐园</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" class="container-fluid">
+                        <div class="tab-pane active row" id="tab1">
+                            <div class="col-md-4"><a href="#script" class="img-wrapper"><img src="images/gallery7.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery8.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery9.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery10.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery11.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery12.jpg" alt=""></a></div>
+                        </div>
+
+                        <div class="tab-pane row" id="tab2">
+                            <div class="col-md-4"><a href="#script" class="img-wrapper"><img src="images/gallery1.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery2.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery3.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery4.jpg" alt=""></a></div>
+                        </div>
+                        <div class="tab-pane row" id="tab3">
+                            <div class="col-md-4"><a href="#script" class="img-wrapper"><img src="images/gallery5.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery6.jpg" alt=""></a></div>
+                        </div>
+
+                        <div class="tab-pane row" id="tab4">
+                            <div class="col-md-4"><a href="#script" class="img-wrapper"><img src="images/gallery13.jpg" alt=""></a></div>
+                            <div class="col-md-4"><a href="#script"><img src="images/gallery11.jpg" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main6 news -->
+            <div class="news" id="xinwen">
+                <h1 class="text-center">最新消息</h1>
+                <div class="container">
+                    <div class="col-md-10">
+                        <div class="col-md-2 text-center"><span class="glyphicon glyphicon-calendar"></span></div>
+                        <div class="col-md-9" id="bot">
+                            <h3>劳瑞斯春季新料理</h3>
+                            <p>3月5号 周六</p>
+                            <p>澳洲带骨羊小排佐草莓洋葱派主厨这次带来颠覆以往的做法，羊小排舒肥过后，再将表面煎上色，造就软嫩的口感，并搭配波特酒草莓酱汁，一旁的是以大湖草莓制作的草莓洋葱派。整道料理以草莓贯串其中...</p>
+                        </div>
+                        <div class="col-md-2 text-center"><span class="glyphicon glyphicon-calendar"></span></div>
+                        <div class="col-md-9">
+                            <h3>劳瑞斯春季新料理</h3>
+                            <p>3月5号 周六</p>
+                            <p>澳洲带骨羊小排佐草莓洋葱派主厨这次带来颠覆以往的做法，羊小排舒肥过后，再将表面煎上色，造就软嫩的口感，并搭配波特酒草莓酱汁，一旁的是以大湖草莓制作的草莓洋葱派。整道料理以草莓贯串其中...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center"><img src="images/ET276164010111231.jpg" alt="" class="img-circle"></div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-3"><h4>参观我们</h4></div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li><h4>营业时间</h4></li>
+                            <li>周一 :关闭</li>
+                            <li>周二-周五 : 10:00 - 22：00</li>
+                            <li>周六、周日 : 10:30 - 23:00</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li><h4>联系我们</h4></li>
+                            <li>地址：北京市xx区</li>
+                            <li>电话：12345678900</li>
+                            <li>邮箱：123mail@.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>新消息</h4>
+                        <form class="form-inline">
+                            <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="说出你的观点…">
+                                <div class="input-group-addon" type="button" id="div1">提交</div>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+            </div>
+            <div class="modal-body">在这里添加一些文本</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">提交更改</button>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
+

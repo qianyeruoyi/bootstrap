@@ -1,0 +1,6 @@
+@media  screen and (max-width: 768px){
+    .navbar-brand img{
+        width:180px;
+    }
+   #navbar-brand{padding-top:10px;}
+}
